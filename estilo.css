@@ -1,0 +1,73 @@
+
+/* Diseño general */
+body {
+    background-color: #eee5df;
+    color: #3b241c;
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #4b2e25;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Menu */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    background-color: #795548;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #a98265;
+}
+
+/* Contenido */
+main {
+    background-color: #fffaf5;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    color: #684333;
+}
+
+/* Imagenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Animales */
+.animal {
+    background-color: #e0d2c9;
+    padding: 15px;
+    margin: 15px 0;
+    width: 250px;
+}
+
+.animal img {
+    width: 200px;
+    height: 160px;
+    object-fit: cover;
+}
+
+/* Pie de pagina */
+footer {
+    background-color: #4b2e25;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
